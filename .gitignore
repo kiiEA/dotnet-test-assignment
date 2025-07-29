@@ -1,0 +1,63 @@
+# .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code / VS
+.idea/
+.vscode/
+.vs/
+
+# Build results
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+# Auto-generated files
+Generated/
+*.generated.cs
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nupkg.sha512
+
+# ASP.NET / Kestrel logs
+*.db
+*.log
+*.pid
+
+# Secrets & user config
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# JetBrains Rider and ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.testresults
+
+# MCP ModelContextProtocol server
+*.mcp.cache
+.mcp/output/
+.mcp/tmp/
+*.mcpoutput
+*.idea
+# OS-specific
+.DS_Store
+Thumbs.db
